@@ -5,3 +5,12 @@
 
 ## Current Starved Inverter architecture
 <p>A current-starved inverter consists of a standard CMOS inverter with additional transistors that control the current flowing through the inverter. By adjusting the gate voltage of these additional transistors, the delay through the inverter can be controlled.</p>
+<figure>
+  <img src="./Cascaded_Current_Starved_Inverter_Based_VCDU_Schematic.png" width="90%">
+  <figcaption>Schematic of delay unit composed of 2 current starved inverters cascaded together</figcaption>
+</figure>
+<br><br><br>
+<figure>
+  <img src="./Testbench_Cascaded_Current_Starved_Inverter_Based_VCDU.png" width="90%">
+  <figcaption>Testbench</figcaption>
+</figure>
