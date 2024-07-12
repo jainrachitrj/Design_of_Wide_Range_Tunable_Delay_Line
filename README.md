@@ -25,7 +25,7 @@
 <br><br><br>
 
 <p>The sizes of different transistors were adjusted to control the delay and obtain a reasonable delay range for the delay unit for different process corners.</p>
-<p>The sizes of the always-on current source transistors($NM2$ and $PM2$ for 1st inverter and $NM5$ and $PM4$ for 2nd inverter) can be tuned to increase the maximum delay (obtained at $V_c=0$) and hence increase the delay range. It was observed that on reducing the width $W$ of these weak-source transistors in the charging and discharging path, the maximum delay increased. This is due to the fact that the propagation delay $t_p$ is proportional to $\frac{C}{I}$, where $C$ is the capacitance and $I$ is the charging/discharging current, so on reducing width of the transistors, the current $I$ reduces and hence delay $t_p$ increases.</p>
+<p>The sizes of the always-on current source transistors($NM2$ and $PM2$ for 1st inverter and $NM5$ and $PM4$ for 2nd inverter) can be tuned to increase the maximum delay (obtained at $V_c=0$) and hence increase the delay range. It was observed that on reducing the width $W$ of these weak-source transistors in the charging and discharging path, the maximum delay increased. This is due to the fact that the propagation delay $t_p$ is proportional to $\frac{C}{I}$, where $C$ is the capacitance and $I$ is the charging/discharging current, so on reducing the width of the transistors, the current $I$ reduces and hence delay $t_p$ increases.</p>
 <p>Below is a plot of the $t_pLH$ <b>propagation delay vs</b> $V_c$ <b>control voltage</b> for $W=400nm$ and $L=180nm$ for various process corners</p>
 <figure>
   <img src="./Delay_WeakSrc_W=400nm_L=180nm_5corners.png" alt = "tpLH vs Vc plot for 5 process corners">
@@ -38,13 +38,13 @@
 <p>where $T_pHL$ and $T_pLH$ are the propagation delays of the delay unit, and $t_pLH$ and $t_pHL$ are the delays of the corresponding individual inverters.</p>
 <p>The $t_pLH$ and $t_pHL$ propagation delays for the two individual inverters (which are cascaded together to form a delay unit), as well as the delay unit, were analysed</p>
 <figure>
-  <img src = "./Delay_Inverters_Individual_NN_VCDU" alt="Plot of propagation delay for inverters and entire delay unit as a whole">
-  <figcaption>Delay($t_pLH$ and $t_pHL$) of individual inverters and delay unit for $NN$ process corner</figcaption>
+  <img src = "./Delay_Inverters_Individual_NN_VCDU.png" alt="Plot of propagation delay for inverters and entire delay unit as a whole">
+  <figcaption><p>Delay ($t_pLH$ and $t_pHL$) of individual inverters and delay unit for $NN$ process corner</p></figcaption>
 </figure>
 <br><br>
 <figure>
-  <img src = "./Delay_Inverters_Individual_SS_VCDU" alt="Plot of propagation delay for inverters and entire delay unit as a whole">
-  <figcaption>Delay($t_pLH$ and $t_pHL$) of individual inverters and delay unit for $SS$ process corner</figcaption>
+  <img src = "./Delay_Inverters_Individual_SS_VCDU.png" alt="Plot of propagation delay for inverters and entire delay unit as a whole">
+  <figcaption><p>Delay ($t_pLH$ and $t_pHL$) of individual inverters and delay unit for $SS$ process corner</p></figcaption>
 </figure>
 
 
