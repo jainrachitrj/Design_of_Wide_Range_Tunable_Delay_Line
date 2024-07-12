@@ -17,6 +17,6 @@
 </figure>
 <br><br><br>
 <p>The sizes of different transistors were adjusted to control the delay and obtain a reasonable delay range for the delay unit for different process corners.</p>
-<p>The sizes of the always-on current source transistors(NM2 and PM2 for 1st inverter and NM5 and PM4 for 2nd inverter) can be tuned to increase the maximum delay obtained(at Vc=0)</p>
+<p>The sizes of the always-on current source transistors(NM2 and PM2 for 1st inverter and NM5 and PM4 for 2nd inverter) can be tuned to increase the maximum delay obtained(at V<sub>c</sub>=0) and hence the delay range. It was observed that on reducing the width W of the transistors in the charging and discharging path, the maximum delay increased. This was due to the fact the propagation delay is proportional to</p>
 
 
