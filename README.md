@@ -5,6 +5,7 @@
 
 ## Current Starved Inverter architecture
 <p>A current-starved inverter consists of a standard CMOS inverter with additional transistors that control the current flowing through the inverter. By adjusting the gate voltage of these additional transistors, the delay through the inverter can be controlled.</p>
+<p>This architecture tunes the charging and discharging currents of an inverter to achieve variability in delay. To design this delay unit, an NMOS and a PMOS transistor were used in the discharging and charging paths, respectively, to tune the currents, and a weaker, always-on current source was provided in order to ensure the current doesn’t go to zero.</p>
 <figure>
   <img src="./Cascaded_Current_Starved_Inverter_Based_VCDU_Schematic.png" width="90%">
   <figcaption>Schematic of delay unit composed of 2 current starved inverters cascaded together</figcaption>
@@ -14,3 +15,8 @@
   <img src="./Testbench_Cascaded_Current_Starved_Inverter_Based_VCDU.png" width="90%">
   <figcaption>Testbench</figcaption>
 </figure>
+<br><br><br>
+<p>The sizes of different transistors were adjusted to control the delay and obtain a reasonable delay range for the delay unit for different process corners.</p>
+<p>The sizes of the always-on current source transistors(NM2 and PM2 for 1st inverter and NM5 and PM4 for 2nd inverter) can be tuned to increase the maximum delay obtained(at Vc=0)</p>
+
+
